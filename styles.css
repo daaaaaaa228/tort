@@ -145,3 +145,29 @@ a{
     }    
 
 }
+
+@media (max-width: 500px) {
+    .primer > img{
+        width: 80%;
+        margin: 4vw 6vw;
+    }
+
+    .p{
+        width: 90%;
+        grid-template-rows: 10% 65% 17% 8%;
+    }
+
+    .price{
+        margin-inline: 0rem;
+    }    
+
+    a{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
