@@ -69,7 +69,7 @@ a{
 
 .p{
     display: grid;
-    grid-template-rows: 15% 43% 30% 22%;
+    grid-template-rows: 15% 38% 30% 27%;
     justify-items: center;
     width: 25%;
     color: white;
@@ -83,7 +83,7 @@ a{
 }
 
 .p > img{
-    height: 100%;
+    width: 50%;
     border-radius: 0.5rem;
 }
 
@@ -131,6 +131,19 @@ a{
     color: #ddff47;
 }
 
+li{
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    border-top: 0.2vw solid black;
+}
+
 @media (max-width: 1200px){
     .p{
         grid-template-rows: 15% 30% 40% 20%;
@@ -146,6 +159,11 @@ a{
     .p{
         width: 40%;
         margin-inline: 0.5rem;
+        grid-template-rows: 15% 40% 30% 20%;
+    }
+
+    .p > p{
+        font-size: 1rem;
     }
 
     .price{
@@ -162,7 +180,7 @@ a{
 
     .p{
         width: 90%;
-        grid-template-rows: 10% 55% 20% 15%;
+        grid-template-rows: 10% 60% 15% 15%;
     }
 
     .price{
