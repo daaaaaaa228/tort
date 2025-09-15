@@ -186,7 +186,6 @@ footer{
     .price{
         margin-inline: 0rem;
     }    
-
 }
 
 @media (max-width: 500px) {
@@ -212,5 +211,4 @@ footer{
     h1{
         font-size: 2rem;
     }
-
 }
